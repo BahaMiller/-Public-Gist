@@ -1,0 +1,3 @@
+bitcoin_course = int(input("What is Bitcoin price today ?\n"))
+money_exchange = int(input("How much $ do you have?\n"))
+print('You can buy ', money_exchange / bitcoin_course, 'BTC')
